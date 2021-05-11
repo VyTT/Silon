@@ -1,0 +1,668 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+.header-top {
+  background: #fef7f6; }
+  .header-top .email {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 11px;
+    line-height: 27px;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 21px; }
+  .header-top .phone {
+    display: inline-block;
+    border-right: solid #cccc;
+    padding-right: 21px;
+    font-size: 11px;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000000; }
+  .header-top .content-text {
+    font-size: 11px !important;
+    line-height: 27px !important;
+    font-family: "roboto", sans-serif;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    color: #000000 !important;
+    box-shadow: 0px 0px #fef7f6 !important; }
+  .header-top a {
+    text-decoration: none !important;
+    color: #000000; }
+
+.header-bottom {
+  position: relative; }
+  .header-bottom .logo {
+    font-size: 34px;
+    line-height: 27px;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    padding-top: 28px; }
+  .header-bottom a {
+    color: black !important;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 50px; }
+  .header-bottom a:hover {
+    color: pink !important; }
+  .header-bottom .icon-header {
+    letter-spacing: 9px;
+    margin-top: 35px;
+    float: right; }
+  .header-bottom .header-menu {
+    margin: 10px; }
+
+.banner {
+  background: url("../img/anh.jpg") no-repeat;
+  background-size: cover; }
+  .banner .ultimate {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "roboto", sans-serif;
+    display: block;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 15px; }
+  .banner .complete {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+    font-family: "Myriad Pro", sans-serif;
+    text-align: center;
+    padding-bottom: 20px; }
+  .banner .button {
+    padding: 15px 40px;
+    background: #ff5353;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 400; }
+    .banner .button:hover {
+      background: white;
+      color: #ff5353; }
+  .banner img {
+    width: 100%; }
+  .banner .content {
+    max-width: 475px;
+    float: right;
+    margin-top: 25%;
+    display: block;
+    text-align: center; }
+
+.featured-product {
+  margin-top: 146px;
+  margin-bottom: 100px;
+  position: relative; }
+  .featured-product .title {
+    font-size: 36px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    padding-bottom: 70px; }
+  .featured-product img {
+    width: 100%;
+    height: 457px; }
+  .featured-product .img-hovers {
+    position: relative; }
+  .featured-product .hovers {
+    position: absolute;
+    margin: -42px 109px;
+    opacity: 0; }
+  .featured-product .img-hovers:hover .hovers {
+    transform: translateY(-50px);
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+    opacity: 1; }
+  .featured-product i {
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 11px; }
+    .featured-product i:hover {
+      background: #ff6666;
+      color: white; }
+  .featured-product .text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #888888;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 29px; }
+  .featured-product span {
+    font-size: 18px;
+    line-height: 16px;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    display: block; }
+
+.offer {
+  background: #e9e1d8; }
+  .offer .off {
+    font-size: 100px;
+    line-height: 16px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    margin-top: 150px; }
+  .offer img {
+    width: 100%;
+    margin-top: 20px; }
+  .offer .all {
+    font-size: 42px;
+    line-height: 16px;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 65px;
+    color: #4a4a4a;
+    margin-bottom: 45px; }
+  .offer .button {
+    padding: 15px 40px;
+    background: #ff5353;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 400; }
+    .offer .button:hover {
+      background: white;
+      color: #ff5353; }
+  .offer .content {
+    text-align: center; }
+
+.feature i {
+  font-size: 50px;
+  color: #ff6666; }
+.feature .money-back {
+  margin-top: 60px;
+  border: solid 2px #cccc;
+  padding-top: 27px;
+  padding-bottom: 26px; }
+.feature .money {
+  font-size: 15px;
+  line-height: 16px;
+  color: #000000;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 27px; }
+.feature .text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #888888;
+  font-family: "roboto", sans-serif;
+  font-weight: 400; }
+
+@media screen and (max-width: 1199px) {
+  .featured-product .hovers {
+    margin: -60px 65px !important; }
+
+  footer .content {
+    padding-right: 0px !important; }
+
+  .most-popular .hovers {
+    margin: -56px 39px !important; }
+
+  .product .hovers {
+    margin: -51px 38px !important; }
+
+  footer i {
+    padding-left: 0px !important; }
+
+  .banner .complete {
+    font-size: 50px;
+    line-height: 55px; }
+
+  .offer .all {
+    font-size: 32px; }
+
+  .offer .off {
+    margin-top: 100px; } }
+@media screen and (max-width: 991px) {
+  .banner .complete {
+    font-size: 50px; }
+
+  .featured-product .hovers {
+    margin: -50px 265px !important; }
+
+  .most-popular .hovers {
+    margin: -56px 99px !important; }
+
+  .product .hovers {
+    margin: -51px 95px !important; }
+
+  footer i {
+    padding-left: 7px !important; }
+
+  .banner .content {
+    float: left;
+    margin-top: 16%;
+    padding-bottom: 25px; }
+
+  footer .menu {
+    margin-right: 40px; }
+
+  .offer .all {
+    font-size: 26px; }
+
+  .offer .off {
+    font-size: 85px; }
+
+  .header-bottom a {
+    font-size: 11px; } }
+@media screen and (max-width: 820px) {
+  .banner .complete {
+    font-size: 40px; } }
+@media screen and (max-width: 767px) {
+  .featured-product.hovers {
+    margin: -50px 176px !important; }
+
+  .banner .complete {
+    font-size: 50px; }
+  .banner .order {
+    order: 2; }
+
+  .offer .all {
+    font-size: 30px !important;
+    padding-top: 50px; }
+
+  .offer .off {
+    font-size: 75px !important; }
+
+  .blog .category {
+    margin-right: 0px !important; }
+
+  .blog .text-were {
+    font-size: 18px !important; }
+
+  .most-popular .hovers {
+    margin: -56px 54px !important;
+    margin-left: 38%;
+    margin-bottom: 110%; }
+
+  .product .hovers {
+    margin: -51px 54px !important; }
+
+  .header-top .phone {
+    border-right: 0px; }
+
+  .header-top .email {
+    padding-left: 0px !important; }
+
+  .header-top .info {
+    display: none; }
+
+  .header-top .content {
+    display: none; }
+
+  footer .title {
+    font-size: 11px !important; }
+
+  .header-bottom .icon-header {
+    letter-spacing: 6px; } }
+@media screen and (max-width: 575px) {
+  .header-bottom .icon-header {
+    letter-spacing: 5px; }
+
+  .featured-product .hovers {
+    margin-left: 30% !important;
+    margin-right: 20% !important; }
+
+  .offer .all {
+    font-size: 20px !important;
+    padding-top: 30px; }
+
+  .offer .off {
+    font-size: 50px !important; }
+
+  .blog .category {
+    margin-right: 35px !important; }
+
+  .most-popular .hovers {
+    margin-left: 35% !important;
+    margin-bottom: 110% !important; }
+
+  .product .hovers {
+    margin-left: 35% !important;
+    margin-bottom: 110% !important; }
+
+  footer .content {
+    padding-right: 30px !important; }
+
+  .banner .complete {
+    font-size: 39px; }
+
+  .banner .ultimate {
+    font-size: 12px; }
+
+  footer .title {
+    font-size: 15px !important; }
+
+  .featured-product.title {
+    line-height: 40px; } }
+.most-popular .title {
+  font-size: 36px;
+  line-height: 16px;
+  color: #000000;
+  text-align: center;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 700;
+  padding-bottom: 80px;
+  margin-top: 147px;
+  text-transform: uppercase; }
+.most-popular img {
+  width: 100%;
+  height: 393px; }
+.most-popular .text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #888888;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 25px; }
+.most-popular .img-hovers {
+  position: relative; }
+.most-popular .hovers {
+  position: absolute;
+  margin-left: 28%;
+  margin-right: 20%;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  opacity: 0; }
+.most-popular .img-hovers:hover .hovers {
+  transform: translateY(-50px);
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out; }
+.most-popular i {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 11px; }
+  .most-popular i:hover {
+    background: #ff6666;
+    color: white; }
+.most-popular span {
+  font-size: 18px;
+  line-height: 16px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  display: block; }
+
+.product .title {
+  font-size: 36px;
+  line-height: 16px;
+  color: #000000;
+  text-align: center;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 700;
+  padding-bottom: 80px;
+  margin-top: 147px;
+  text-transform: uppercase; }
+.product img {
+  width: 100%;
+  height: 340px; }
+.product .text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #888888;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px; }
+.product .img-hovers {
+  position: relative; }
+.product .hovers {
+  position: absolute;
+  margin: -51px 61px;
+  opacity: 0; }
+.product .img-hovers:hover .hovers {
+  transform: translateY(-50px);
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+  opacity: 1; }
+.product i {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 11px; }
+  .product i:hover {
+    background: #ff6666;
+    color: white; }
+.product span {
+  font-size: 18px;
+  line-height: 16px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  display: block; }
+
+.blog .title {
+  font-size: 36px;
+  line-height: 16px;
+  color: #000000;
+  text-align: center;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 700;
+  padding-bottom: 80px;
+  margin-top: 147px;
+  text-transform: uppercase;
+  text-align: center; }
+.blog img {
+  width: 100%;
+  height: 340px; }
+.blog .text {
+  font-size: 13px;
+  line-height: 27px;
+  color: #888888;
+  display: inline-block; }
+.blog .box {
+  width: 15px;
+  height: 6px;
+  background: #ff5353;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 10px; }
+.blog .data {
+  margin-top: 30px; }
+.blog .text-were {
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  border-bottom: solid 1px #e1e1e1;
+  margin-top: 10px; }
+.blog .category {
+  display: inline-block;
+  margin-right: 35px; }
+.blog .comments {
+  display: inline-block; }
+.blog .text1 {
+  float: right;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  color: #9b9b9b;
+  padding-left: 10px; }
+
+.follow-us {
+  margin-bottom: 100px; }
+  .follow-us .title {
+    font-size: 36px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+    font-family: "Myriad Pro", sans-serif;
+    font-weight: 700;
+    padding-bottom: 80px;
+    margin-top: 147px;
+    text-transform: uppercase;
+    text-align: center; }
+  .follow-us .o {
+    position: absolute;
+    top: 30px;
+    width: 92%;
+    height: 97%;
+    background: #ff5353;
+    opacity: 0; }
+  .follow-us i {
+    position: absolute;
+    right: 47%;
+    top: 48%;
+    opacity: 0; }
+  .follow-us .k:hover .o {
+    opacity: 0.8;
+    top: 0;
+    transition: all .5s ease-in-out; }
+  .follow-us .k:hover i {
+    opacity: 1; }
+  .follow-us img {
+    width: 100%;
+    height: 380px;
+    margin-bottom: 10px; }
+
+footer {
+  background: #e9e1d8;
+  padding-top: 95px; }
+  footer .title {
+    font-size: 15px;
+    line-height: 45px;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
+  footer .goole-play {
+    width: 49%;
+    height: 100%;
+    background: white;
+    display: inline-block;
+    padding-top: 8px;
+    margin-right: 2px;
+    padding-bottom: 8px; }
+    footer .goole-play:hover {
+      background: #ff5353; }
+    footer .goole-play:hover i {
+      color: white; }
+    footer .goole-play:hover .goole-app {
+      color: white; }
+    footer .goole-play:hover .get {
+      color: white; }
+  footer .app-store {
+    width: 49%;
+    height: 100%;
+    background: white;
+    float: right;
+    padding-top: 8px;
+    padding-bottom: 8px; }
+    footer .app-store:hover {
+      background: #ff5353; }
+    footer .app-store:hover i {
+      color: white; }
+    footer .app-store:hover .goole-app {
+      color: white; }
+    footer .app-store:hover .get {
+      color: white; }
+  footer i {
+    color: #ff5353;
+    padding-left: 7px; }
+  footer p {
+    margin-bottom: 0px !important; }
+  footer .content {
+    float: right;
+    padding-right: 10px; }
+  footer .get {
+    font-size: 10px;
+    padding-right: 25px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    color: #888888;
+    text-transform: uppercase; }
+  footer .goole-app {
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 3px;
+    text-transform: uppercase; }
+  footer .app-store {
+    border-radius: 3px; }
+  footer .footer-icon {
+    border-top: solid 2px #ccc;
+    margin-top: 30px; }
+  footer .us {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: flex;
+    padding-top: 20px; }
+  footer .footer-icon i {
+    width: 30px;
+    height: 30px;
+    background: white;
+    padding-top: 8px;
+    color: black;
+    margin-right: 10px;
+    border-radius: 2px; }
+    footer .footer-icon i:hover {
+      color: white;
+      background: #ff5353; }
+  footer .social-icon {
+    display: flex;
+    padding-top: 20px; }
+  footer .them {
+    text-decoration: none;
+    color: #ff6666; }
+    footer .them:hover {
+      text-decoration: none; }
+  footer .copyright {
+    padding-bottom: 40px;
+    border-top: solid 2px #ccc;
+    padding-top: 44px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    color: #9b9b9b; }
+  footer .list {
+    list-style-type: none; }
+  footer a {
+    color: #888;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 400; }
+    footer a:hover {
+      text-decoration: none;
+      color: #ff6666; }
+
+/*# sourceMappingURL=style.css.map */
